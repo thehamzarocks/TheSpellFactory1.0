@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.user.thespellfactory10">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenu"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Level1_Init"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Stats1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level2_Init"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Stats"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level3Init"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Level3"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>
