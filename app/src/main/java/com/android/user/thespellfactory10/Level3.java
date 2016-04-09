@@ -86,8 +86,8 @@ public class Level3 extends AppCompatActivity {
         Button ebutton = (Button) findViewById(R.id.button13);
         ebutton.setVisibility(View.GONE);
         for(int i=0;i<1000000;i++);
-        /*Intent intent = new Intent(this,Level4Init.class);
-        startActivity(intent);*/
+        Intent intent = new Intent(this,Level4Init.class);
+        startActivity(intent);
     }
 
 

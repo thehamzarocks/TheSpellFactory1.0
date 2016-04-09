@@ -38,8 +38,17 @@
         <activity
             android:name=".Level3Init"
             android:screenOrientation="landscape" />
-        <activity android:name=".Level3"
-            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Level3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level4Init"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level4"
+            android:screenOrientation="landscape" />
+        <activity android:name=".LevelSelect"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
