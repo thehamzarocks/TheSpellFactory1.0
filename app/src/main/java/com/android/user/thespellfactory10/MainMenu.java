@@ -14,7 +14,7 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void Level1Initialize(View view) {
-        Intent intent = new Intent(this, Level4Init.class);
+        Intent intent = new Intent(this, Level1_Init.class);
         startActivity(intent);
     }
 

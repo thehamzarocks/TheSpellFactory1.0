@@ -176,8 +176,8 @@ public class Level4 extends AppCompatActivity {
                 }
                 else if(stonecount.equals("9")){
 
-                    /*Intent intent = new Intent(Level4.this,Level5Init.class);
-                    startActivity(intent);*/
+                    Intent intent = new Intent(Level4.this,Level5Init.class);
+                    startActivity(intent);
                     Toast.makeText(Level4.this, "Woo! I'm all wet now, but I made it. Got to be a bit more careful from now on.", Toast.LENGTH_SHORT).show();
                 }
             }

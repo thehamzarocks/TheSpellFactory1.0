@@ -47,8 +47,11 @@
         <activity
             android:name=".Level4"
             android:screenOrientation="landscape" />
-        <activity android:name=".LevelSelect"
-            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".LevelSelect"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Level5Init" />
+        <activity android:name=".Level5"></activity>
     </application>
 
 </manifest>
